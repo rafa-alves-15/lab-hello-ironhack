@@ -1,5 +1,9 @@
 import logo from "./assets/images/ironhack-logo.svg";
 import menu from "./assets/images/menu-top.svg";
+import icon1 from "./assets/images/icon1.png";
+import icon2 from "./assets/images/icon2.png";
+import icon3 from "./assets/images/icon3.png";
+import icon4 from "./assets/images/icon4.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
@@ -27,12 +31,48 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Awesome!
+          <button className="botao">Awesome!</button>
         </a>
       </header>
-      <div>
-      
-
+      <div className="space-li">
+        <ul className="li">
+          <li>
+            <img src={icon1} className="icon" alt="icon1" />
+            <h3>Declarative</h3>
+            <p>
+              React makes it<br></br>
+              painless to create<br></br>
+              interactive Uls.
+            </p>
+          </li>
+          <li>
+            <img src={icon2} className="icon" alt="icon2" />
+            <h3>Components</h3>
+            <p>
+              Build encaosulated<br></br>
+              components that<br></br>
+              manage their state.
+            </p>
+          </li>
+          <li>
+            <img src={icon3} className="icon" alt="icon3" />
+            <h3>Single-Way</h3>
+            <p>
+              A set of immutable<br></br>
+              values are passed to<br></br>
+              the component's.
+            </p>
+          </li>
+          <li>
+            <img src={icon4} className="icon" alt="icon4" />
+            <h3>JSX</h3>
+            <p>
+              Statically-typed.<br></br>
+              designed to run on<br></br>
+              modern browsers.
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
   );

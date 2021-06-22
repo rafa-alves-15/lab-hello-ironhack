@@ -43,8 +43,28 @@ p {
 
 .App-link {
   margin-top: 30px;
-  background-color: white;
-  margin-right: 88%;
-  padding: 10px;
-  /* border: 10px white; */
+  display: inline;
+  margin-bottom: 7%;
+}
+
+.botao{
+  border: 1px solid white;
+  padding: 1%;
+  border-radius: 3px;
+
+}
+
+.space-li{
+  margin-top: 15%;
+  margin-bottom: 20%;
+}
+
+.icon {
+  padding-bottom: 22px;
+}
+
+.li {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
   }
